@@ -12,9 +12,7 @@ name: OpenWrt
 on:
   push:
     branches: 
-      - master
-  schedule:
-    - cron: 0 42 22 * *
+      - main
   watch:
     types: started
 
